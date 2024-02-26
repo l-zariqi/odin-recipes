@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Lucida Handwriting', sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
