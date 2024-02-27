@@ -1,19 +1,24 @@
 body {
     background-color: beige;
-    font-family: 'Arial', sans-serif;
+    font-family: Georgia, serif;
 }
 
-h1, h3 {
-    font-family: 'Lucida Handwriting', sans-serif;
-}
-
-h1, p {
+h1 {
     text-align: center;
+    color: darkgreen;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p.description {
+    text-align: center;
+    font-style: italic;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
 }

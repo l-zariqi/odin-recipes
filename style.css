@@ -1,8 +1,14 @@
-h1 {
-    text-align: center;
+body {
+    background-color: beige;
+    color: darkgreen;
+    font-family: Georgia, serif;
 }
 
-ul {
-    display: table;
-    margin: 0 auto;
+h1 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+div {
+    text-align: center;
 }
