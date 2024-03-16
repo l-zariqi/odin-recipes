@@ -2,6 +2,8 @@ body {
     background-color: beige;
     color: darkgreen;
     font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -9,6 +11,30 @@ h1 {
     padding-bottom: 60px;
 }
 
-div {
-    text-align: center;
+.recipe-list {
+    display: flex;
+    justify-content: center;
 }
+
+li {
+    margin-bottom: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
